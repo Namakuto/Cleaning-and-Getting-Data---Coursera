@@ -3,7 +3,7 @@
 ## Ver 1.0 - June 20, 2017
 -------------------------------------------------------------------------------------------------------------------------
 
-run_analysis.R will create a "tidy" text file that simply shows the mean time-frequency readings for each activity and measured feature within the UCI HAR Dataset. Standard deviations for each activity and feature are also included.
+run_analysis.R will create a tidy text file that simply shows the mean time-frequency readings for each activity and measured feature within the UCI HAR Dataset. Standard deviations for each activity and feature are also included.
 
 The dataset is available at the URL below: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -29,6 +29,6 @@ Based upon the .txt files in the UCI HAR Dataset .zip, variables in run_analysis
 * `write.csv` - outputs the new data.frame as a .csv, "Activities + Features Mean.csv"
 
 
-Column name features in the .csv parallels those found in "features.txt" (refer to the .zip file for the UCI HAR Dataset). Units of measurements are in s and Hz. Refer to "activity_labels.txt" for a list of activity types. 
+Column name features in the table .txt parallels those found in "features.txt" (refer to the .zip file for the UCI HAR Dataset). Units of measurements are in s and Hz. Refer to "activity_labels.txt" for a list of activity types. 
   
-The final write line may be changed to a generic write.table function to generate a .txt file output. 
+The final write line may be changed to a "write.csv" function to generate a .csv file. 
