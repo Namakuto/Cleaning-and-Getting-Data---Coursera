@@ -8,7 +8,7 @@ run_analysis.R will create a "tidy" text file that simply shows the mean time-fr
 The dataset is available at the URL below: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Variables in the R file are as follows:
+Variables in run_analysis.R are as follows:
 * `labels` - holds "activity_labels.txt"
 * `features` - holds "features.txt"
 * `featuresWanted` - row indices in "features.txt" containing "mean" or "std" in the name 
