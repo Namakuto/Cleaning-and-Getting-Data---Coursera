@@ -34,4 +34,4 @@ feature.sum<-as.factor(newframe$Feature)
 newframe2<-melt(newframe, id.vars =c("Activity", "Feature")) # Left side; the individual rows
 newframe2.mean<-dcast(newframe2, Activity+Feature~variable, fun.aggregate = mean)
 
-write.csv(newframe2.mean, file="Activites + Features Mean.csv", quote=FALSE, row.names = TRUE)
+write.table(newframe2.mean, file="Activites + Features Mean.txt", quote=FALSE, row.names = FALSE)
