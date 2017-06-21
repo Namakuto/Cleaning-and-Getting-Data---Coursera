@@ -1,6 +1,6 @@
-# Variable Codebook Update for the Human Activity Recognition Dataset #
+# Variable CodeBook for run_analysis.R #
 -------------------------------------------------------------------------------------------------------------------------
-## Description of run_analysis.R 		                            Ver 1.0 - June 20, 2017
+## Ver 1.0 - June 20, 2017
 -------------------------------------------------------------------------------------------------------------------------
 
 The run_analysis code will create a "tidy" text file that simply shows the mean time-frequency readings for each activity and measured feature of the UCI HAR Dataset. Standard deviations for each activity and feature are also included.
