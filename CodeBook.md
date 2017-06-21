@@ -3,7 +3,7 @@
 ## Ver 1.0 - June 20, 2017
 -------------------------------------------------------------------------------------------------------------------------
 
-run_analysis.R will create a tidy text file that simply shows the mean time-frequency readings for each activity and measured feature within the UCI HAR Dataset. Standard deviations for each activity and feature are also included.
+run_analysis.R will create a tidy text (table) file that simply shows the mean time-frequency readings for each activity and measured feature within the UCI HAR Dataset. Standard deviations for each activity and feature are also included.
 
 The dataset is available at the URL below: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
